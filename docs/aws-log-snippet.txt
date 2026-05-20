@@ -1,0 +1,65 @@
+================================================================================
+AWS CloudWatch Logs - /aws/lambda/insight-export-prod
+================================================================================
+
+2024-05-18T08:21:04.118Z [EXPORT] Scheduled export job triggered
+2024-05-18T08:21:04.121Z [EXPORT] Starting paginated export process
+2024-05-18T08:21:04.123Z [EXPORT] Fetching export page token: eyJwYWdlIjoxfQ==
+2024-05-18T08:21:04.892Z [EXPORT] Retrieved 1000 export records
+2024-05-18T08:21:04.893Z [EXPORT] Processing export batch 1
+
+2024-05-18T08:21:05.104Z [EXPORT] Fetching export page token: eyJwYWdlIjoxfQ==
+2024-05-18T08:21:05.861Z [EXPORT] Retrieved 1000 export records
+2024-05-18T08:21:05.862Z [EXPORT] Processing export batch 2
+
+2024-05-18T08:21:06.073Z [EXPORT] Fetching export page token: eyJwYWdlIjoxfQ==
+2024-05-18T08:21:06.831Z [EXPORT] Retrieved 1000 export records
+2024-05-18T08:21:06.832Z [EXPORT] Processing export batch 3
+
+2024-05-18T08:21:07.043Z [WARNING] Duplicate pagination token detected: eyJwYWdlIjoxfQ==
+2024-05-18T08:21:07.044Z [WARNING] Export duration exceeding expected threshold
+
+---
+
+2024-05-18T08:24:18.211Z [EXPORT] Scheduled export job triggered
+2024-05-18T08:24:18.212Z [EXPORT] Starting paginated export process
+
+2024-05-18T08:24:18.213Z [EXPORT] Fetching export page token: eyJwYWdlIjoxfQ==
+2024-05-18T08:24:18.994Z [EXPORT] Retrieved 1000 export records
+
+2024-05-18T08:24:19.105Z [EXPORT] Fetching export page token: eyJwYWdlIjoxfQ==
+2024-05-18T08:24:19.887Z [EXPORT] Retrieved 1000 export records
+
+2024-05-18T08:24:19.998Z [EXPORT] Fetching export page token: eyJwYWdlIjoxfQ==
+2024-05-18T08:24:20.781Z [EXPORT] Retrieved 1000 export records
+
+2024-05-18T08:24:20.892Z [WARNING] Lambda memory utilization exceeded 85%
+2024-05-18T08:24:20.893Z [WARNING] Export loop iteration count exceeded baseline
+
+---
+
+2024-05-18T08:31:42.114Z [EXPORT] Scheduled export job triggered
+2024-05-18T08:31:42.115Z [EXPORT] Starting paginated export process
+
+2024-05-18T08:31:42.116Z [EXPORT] Fetching export page token: eyJwYWdlIjoxfQ==
+2024-05-18T08:31:42.917Z [EXPORT] Retrieved 1000 export records
+
+2024-05-18T08:31:43.029Z [EXPORT] Fetching export page token: eyJwYWdlIjoxfQ==
+2024-05-18T08:31:43.811Z [EXPORT] Retrieved 1000 export records
+
+2024-05-18T08:31:43.922Z [EXPORT] Fetching export page token: eyJwYWdlIjoxfQ==
+2024-05-18T08:31:44.703Z [EXPORT] Retrieved 1000 export records
+
+2024-05-18T08:31:44.814Z [ERROR] Lambda execution duration exceeded timeout threshold
+
+REPORT RequestId: 92fd3c11
+Duration: 899912 ms
+Billed Duration: 900000 ms
+Memory Size: 1024 MB
+Max Memory Used: 1024 MB
+
+Task timed out after 900.00 seconds
+
+================================================================================
+END LOG SNIPPET
+================================================================================
