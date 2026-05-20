@@ -1,0 +1,24 @@
+{
+  "name": "insight-export-service",
+  "version": "1.0.0",
+  "description": "Production incident simulation repository for export pagination failures",
+  "main": "src/pagination_client.py",
+  "scripts": {
+    "start": "python src/pagination_client.py",
+    "test": "pytest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/insight-export-service.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "pagination",
+    "incident-simulation",
+    "backend",
+    "sre"
+  ],
+  "author": "Purva Kothekar",
+  "license": "MIT"
+}
